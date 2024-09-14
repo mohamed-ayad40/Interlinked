@@ -1913,3 +1913,33 @@ footer {
     top: 0;
     z-index: -1000000;
 }
+
+.Order-item i {
+    font-size: 48px;
+    color: deepskyblue;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.Order-item {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* width: 80%; */
+    width: auto;
+}
+.Order-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    /* justify-content: center; */
+}
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    /* width: 21vw; */
+    width: auto;
+}
