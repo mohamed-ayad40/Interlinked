@@ -11,6 +11,13 @@ body {
     transition: 0.3s;
 }
 
+* {
+    outline: 1px solid red; /* Outline all elements to see their boundaries */
+}
+#homePage {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     color: white;
