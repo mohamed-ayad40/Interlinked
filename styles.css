@@ -1935,7 +1935,7 @@ footer {
     margin: 0 auto;
     /* justify-content: center; */
     width: auto;
-    max-width: auto;
+    max-width: auto !important;
 }
 .testimonial-container {
     display: flex;
