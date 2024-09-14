@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In - Interlinked</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="homePage">
+      <div id="overlay">
+      </div>
+      <header>
+          <nav class="navbar">
+              <div class="logo"><a href="index.html">Interlinked</a></div>
+              <div class="access-nav">
+                  <div class="hamburger"><i class="fas fa-bars"></i></div>
+              </div>
+              <ul class="under-nav-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="shops.html">Shops</a></li>
+                  <li><a href="community.html">Community</a></li>
+                  <li><a href="about.html">About us</a></li>
+                  <li class="signing"><a href="login.html">Log in</a></li>
+                  <li class="signing"><a href="signup.html">Sign up</a></li>
+              </ul>
+          </nav>
+      </header>
+    <section class="signin-section">
+      <div class="signin-form">
+        <h2>Log In</h2>
+        <form id="login-form">
+          <label for="email">Email:</label>
+          <input placeholder="Your email" type="email" id="email" name="email" required />
+
+          <label for="password">Password:</label>
+          <input placeholder="Your password" type="password" id="password" name="password" required />
+
+          <button type="submit" class="btn">Log In</button>
+          <button type="button" class="btn google-btn" id="google-login">
+            Log in with Google
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2024 Interlinked. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

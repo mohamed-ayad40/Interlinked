@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up - Interlinked</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="homePage">
+      <div id="overlay">
+      </div>
+      <header>
+          <nav class="navbar">
+              <div class="logo"><a href="index.html">Interlinked</a></div>
+              <div class="access-nav">
+                  <div class="hamburger"><i class="fas fa-bars"></i></div>
+              </div>
+              <ul class="under-nav-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="shops.html">Shops</a></li>
+                  <li><a href="community.html">Community</a></li>
+                  <li><a href="about.html">About us</a></li>
+                  <li class="signing"><a href="login.html">Log in</a></li>
+                  <li class="signing"><a href="signup.html">Sign up</a></li>
+              </ul>
+          </nav>
+      </header>
+    <section class="signin-section">
+      <div class="signin-form">
+        <h2>Sign up</h2>
+        <form id="signin-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="age">Age:</label>
+          <input type="number" id="age" name="age" required />
+
+          <label for="gender">Gender:</label>
+          <div class="gender-options">
+            <label>
+              <input type="radio" name="gender" value="male" required />
+              Male
+            </label>
+            <label>
+              <input type="radio" name="gender" value="female" required />
+              Female
+            </label>
+          </div>
+
+          <label for="type">I am a:</label>
+          <select id="type" name="type" required>
+            <option value="customer">Customer</option>
+            <option value="shop">Shop</option>
+            <option value="distributor">Distributor</option>
+          </select>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" id="confirm-password" name="confirm-password" required />
+
+          <button type="submit" class="btn">Sign up</button>
+          <button type="button" class="btn google-btn" id="google-signin">
+            Sign up with Google
+          </button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2024 Interlinked. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

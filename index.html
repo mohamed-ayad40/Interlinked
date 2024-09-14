@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interlinked</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="homePage">
+      <div id="overlay"></div>
+      <header>
+        <nav class="navbar">
+          <div class="logo"><a href="index.html">Interlinked</a></div>
+          <div class="access-nav">
+            <fieldset class="search-container">
+              <input type="text" placeholder="Search" />
+              <div class="main-button search-button">
+                <div class="first-button search-button"></div>
+                <div class="second-button search-button"></div>
+              </div>
+            </fieldset>
+
+            <div>
+              <ul class="nav-links">
+                <li><a id="shopping-cart-icon"></a></li>
+                <li><a id="location-icon"></a></li>
+                <li><a id="notifications-icon"></a></li>
+                <li><a id="heart-icon"></a></li>
+              </ul>
+            </div>
+            <div class="hamburger"><i class="fas fa-bars"></i></div>
+          </div>
+          <ul class="under-nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="shops.html">Shops</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li class="signing"><a href="login.html">Log in</a></li>
+            <li class="signing"><a href="signup.html">Sign up</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="logo-photo-section">
+        <div>
+          <img src="/Screenshot 2024-09-12 220629.png" alt="Interlinked logo" />
+        </div>
+      </section>
+
+      <section id="home" class="home-section">
+        <div class="hero-content">
+          <p>Connecting customers, stores, and suppliers seamlessly.</p>
+        </div>
+        <div class="new-search-container">
+          <input type="text" placeholder="find your product type..." />
+          <button class="btn">Search</button>
+        </div>
+      </section>
+
+      <section id="featured-products">
+        <h2>Medical Categories</h2>
+        <div class="product-container home">
+          <div class="product-item shops home">
+            <img src="/Medical Categories/Medicines.jfif" alt="Medicines" />
+            <div class="product-info">
+              <h3>Medicines</h3>
+              <p class="description">
+                Find trusted medications for various ailments and improve well-being.
+              </p>
+              <a href="product1.html" class="btn">Shop now</a>
+            </div>
+          </div>
+
+          <div class="product-item shops home">
+            <img src="/Medical Categories/Vitamins.jpeg" alt="Vitamins" />
+            <div class="product-info">
+              <h3>Vitamins</h3>
+              <p class="description">
+                Support your health with high-quality vitamins and supplements.
+              </p>
+              <a href="vitamins.html" class="btn">Shop now</a>
+            </div>
+          </div>
+
+          <div class="product-item shops home">
+            <img src="/Medical Categories/Beauty & Care Essentials.jpg" alt="Beauty & Care Essentials" />
+            <div class="product-info">
+              <h3>Beauty & Care Essentials</h3>
+              <p class="description">
+                Explore skincare and cosmetic essentials for a radiant appearance.
+              </p>
+              <a href="beauty.html" class="btn">Shop now</a>
+            </div>
+          </div>
+
+          <div class="product-item shops home">
+            <img src="/Medical Categories/Medical-Supply-or-Equipment.jpg" alt="Medical Instruments" />
+            <div class="product-info">
+              <h3>Medical Instruments</h3>
+              <p class="description">
+                Reliable tools for healthcare professionals and home care.
+              </p>
+              <a href="product4.html" class="btn">Shop now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Order" class="Order-section">
+        <h2>Options</h2>
+        <div class="Order-grid">
+          <div class="Order-item">
+            <i class="fas fa-search"></i>
+            <h3>Search for Products in Your Local Pharmacy</h3>
+            <p>Check availability of products in real-time.</p>
+            <button class="cancel-btn">&times;</button>
+          </div>
+          
+          <div class="Order-item">
+            <i class="fas fa-chart-line"></i>
+            <h3>Find Products Similar to Your Order</h3>
+            <p>Discover similar items based on your recent orders.</p>
+            <button class="cancel-btn">&times;</button>
+          </div>
+          <div class="Order-item">
+            <i class="fas fa-person-biking"></i>
+            <h3>Efficient Delivery</h3>
+            <p>Get your products delivered quickly and reliably.</p>
+            <button class="cancel-btn">&times;</button>
+          </div>
+          
+          <div class="Order-item">
+            <i class="fas fa-robot"></i>
+            <h3>AI-Powered Product Insights</h3>
+            <p>Discover products effortlessly with our AI-powered tool. It uses advanced algorithms to provide smart insights and personalized suggestions,
+               helping you find exactly what you need!</p>
+            <button class="cancel-btn">&times;</button>
+          </div>
+      </section>
+
+      <main>
+        <section id="testimonials">
+          <h2>What Our Customers Say</h2>
+          <div class="testimonial-container">
+            <div class="testimonial-item">
+              <img src="/Customer/close-up-young-person-barbeque_23-2149271990.avif" alt="Customer 1" class="customer-photo" />
+              <blockquote>
+                <p>"Interlinked has completely transformed the way I shop online."</p>
+                <footer>- Jane Doe</footer>
+              </blockquote>
+            </div>
+        
+            <div class="testimonial-item">
+              <img src="/Customer/pleased-smiling-man-with-beard-looking-camera_176420-18040.avif" alt="Customer 2" class="customer-photo" />
+              <blockquote>
+                <p>"I love how easy it is to find exactly what I need."</p>
+                <footer>- John Smith</footer>
+              </blockquote>
+            </div>
+        
+            <div class="testimonial-item">
+              <img src="/Customer/portrait-man-laughing_23-2148859448.avif" alt="Customer 3" class="customer-photo" />
+              <blockquote>
+                <p>"Great service and amazing selection of products."</p>
+                <footer>- mohammed Ali</footer>
+              </blockquote>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Add the comment section here -->
+        <section id="comments" class="comment-section">
+          <h2>Leave Your Comment</h2>
+          <form action="#" method="post" id="commentForm">
+        
+            <label for="comment-name">Comment</label>
+            <input type="text" id="comment-name" name="name" required style= "width: 80%; text-align: center;"/>
+        
+            <button type="submit" class="btn">Submit Comment</button>
+          </form>
+        
+          <div id="submitted-comments">
+            <a href="community.html"><h2>Join to our community to know more</h2></a>
+          </div>
+        </section>
+        
+      </main>
+      <footer>
+        <div class="footer-content">
+          <div class="footer-links">
+            <div class="quick-links">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="shops.html">Shops</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+      
+            <div class="customer-service">
+              <h3>Customer Service</h3>
+              <ul>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="returns.html">Returns</a></li>
+                <li><a href="shipping.html">Shipping Info</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Service</a></li>
+              </ul>
+            </div>
+      
+            <div class="contact-info">
+              <h3>Contact Us</h3>
+              <ul>
+                <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country</li>
+                <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                <li><i class="fas fa-envelope"></i> <a href="mailto:info@interlinked.com">info@interlinked.com</a></li>
+              </ul>
+            </div>
+      
+            <div class="social-media">
+              <h3>Follow Us</h3>
+              <ul>
+                <li><a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2024 Interlinked. All rights reserved. Designed by YourCompany.</p>
+        </div>
+      </footer>
+    </div>
+      <div id="searchPage">
+        <fieldset class="search-container">
+          <input type="text" placeholder="Search" />
+          <div class="main-button">
+            <div class="first-button"></div>
+            <div class="second-button"></div>
+          </div>
+        </fieldset>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
