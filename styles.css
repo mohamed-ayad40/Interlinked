@@ -266,7 +266,7 @@ fieldset {
 
 /* Hero Section */
 .home-section {
-    background: url("./pngtree-color-capsule-medicine-injection-and-stethoscope-medical-background-picture-image_1451198.jpg") no-repeat center center / cover;
+    background: url("pngtree-color-capsule-medicine-injection-and-stethoscope-medical-background-picture-image_1451198.jpg") no-repeat center center / cover;
     height: 40vh;
     display: flex;
     flex-direction: column;

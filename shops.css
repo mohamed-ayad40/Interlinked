@@ -81,7 +81,7 @@ header, footer {
 }
 
 .hero-section {
-    background-image: url('./path/to/hero-image.jpg');
+    background-image: url('path/to/hero-image.jpg');
     background-size: cover;
     color: white;
     padding: 50px 20px;
