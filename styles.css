@@ -442,7 +442,7 @@ h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
 }
 
@@ -1933,9 +1933,7 @@ footer {
     gap: 40px;
     /* max-width: 1200px; */
     margin: 0 auto;
-    /* justify-content: center; */
-    width: auto;
-    max-width: auto !important;
+
 }
 .testimonial-container {
     display: flex;
