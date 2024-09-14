@@ -10,11 +10,9 @@ body {
     overflow-x: hidden;
     transition: 0.3s;
     margin: 0;
+    width: 100%;
 }
 
-* {
-    outline: 1px solid red; /* Outline all elements to see their boundaries */
-}
 #homePage {
     width: 100%;
 }
@@ -1966,42 +1964,6 @@ footer {
     padding: 20px;
     margin: 0 auto;
 }
-
-
-@media (max-width: 600px) {
-    .info-section,
-    .contact-section {
-        padding: 10px;
-    }
-}
-
-
-.new-search-container {
-    width: 100%; /* Make sure the container doesn't exceed the screen width */
-    margin: 0 auto; /* Center the container without adding extra space */
-}
-
-
-@media (max-width: 600px) {
-    .hero-content p {
-        margin-bottom: 0; /* Reduce the margin for smaller screens */
-    }
-    .new-search-container {
-        margin: 10px auto; /* Reduce margin on mobile */
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
-}
-
-
-
-.Order-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust min width for smaller screens */
-    gap: 20px; /* Adjust the gap between items */
-}
-
-
-
-.Order-item img {
-    width: 100%;
-    height: auto; /* Ensure the image scales properly */
+* {
+    overflow-x: hidden;
 }
