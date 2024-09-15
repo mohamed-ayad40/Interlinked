@@ -1047,17 +1047,33 @@ cite {
     overflow: visible;
 }
 #searchPage input {
-    width: 100vw;
+    /* width: 100vw;
+    background-color: white;
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 12px; */
+    width: 94vw;
     background-color: white;
     outline: none;
     border: none;
     padding: 15px 20px;
     border-radius: 12px;
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-40%);
 }
 #searchPage .main-button {
+    /* display: flex;
+    position: absolute;
+    right: 10%; */
     display: flex;
     position: absolute;
-    right: 10%;
+    right: -12%;
+    position: absolute;
+    top: 0%;
+    transform: translateY(45%);
 }
 .first-button, 
 .second-button {
