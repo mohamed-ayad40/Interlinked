@@ -1,6 +1,4 @@
-
 /* Global Styles */
-
 * {
     margin: 0;
     padding: 0;
@@ -339,7 +337,7 @@ fieldset {
     margin-top: 20px; /* Space above the search bar */
     max-width: 500px;
     width: 100%; /* Ensure it doesn't exceed the screen width */
-    margin: 100px auto; /* Center the search bar horizontally */
+    margin: 5vh auto;
 }
 
 .new-search-container button {
