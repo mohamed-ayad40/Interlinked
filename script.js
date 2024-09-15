@@ -91,4 +91,21 @@ document.getElementById('add-post-form').addEventListener('submit', function(eve
     document.getElementById('post-content').value = '';
 });
 
-console.log("Hello there");
+let lastScrollTop = 0;
+const navbar = document.querySelector('header');
+
+window.addEventListener('scroll', function() {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    console.log(scrollTop)
+    // If scrolling down, hide the navbar
+    if (scrollTop > lastScrollTop) {
+        navbar.classList.add('navbar-hidden');
+        navbar.classList.remove('navbar-visible');
+    }
+    // If scrolling up, show the navbar
+    else {
+        navbar.classList.add('navbar-visible');
+        navbar.classList.remove('navbar-hidden');
+    }
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For mobile or negative scrolling
+});
