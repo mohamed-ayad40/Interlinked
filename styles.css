@@ -19,6 +19,12 @@ body {
     width: 100%;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000000;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -712,6 +718,7 @@ h2 {
     gap: 4vw; 
     padding: 20px;
     background-color: deepskyblue;
+    border-radius: 20px;
 }
 
 /* Styling for each testimonial box */
