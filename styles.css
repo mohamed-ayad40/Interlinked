@@ -1042,7 +1042,7 @@ cite {
     display: flex;
     position: absolute;
     /* right: -10%; */
-    right: -3%;
+    right: 4%;
     z-index: 10;
     margin-top: 0px;
 }
@@ -1190,7 +1190,7 @@ cite {
 #homePage .main-button {
     display: flex;
     position: absolute;
-    right: -3%;
+    right: 4%;
     z-index: 10;
     margin-top: 0;
 }
