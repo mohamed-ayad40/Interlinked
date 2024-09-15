@@ -422,7 +422,7 @@ fieldset {
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    max-width: 140px;
+    max-width: 143px;
     flex-grow: 1; /* Each item takes an equal portion of available space */
     flex-shrink: 1; /* Items will shrink if there is not enough space */
     min-width: 100px; /* Prevent items from shrinking too small */
