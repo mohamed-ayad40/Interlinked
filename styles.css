@@ -1203,10 +1203,10 @@ cite {
 @media (max-width: 1000px) {
     #homePage .search-container input {
         padding: 8px 10px;
-        margin-top: 12px;
+        /* margin-top: 12px; */
     }
     #homePage .main-button {
-        margin-top: 12px;
+        /* margin-top: 12px; */
     }
 }
 
@@ -1257,7 +1257,7 @@ cite {
     #homePage .main-button {
         width: 50px;
         height: 22px;
-        margin-top: 12px;
+        /* margin-top: 12px; */
     }
 
     .first-button, .second-button {
