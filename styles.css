@@ -276,7 +276,7 @@ fieldset {
 
 /* Hero Section */
 .home-section {
-    background: url("pngtree-color-capsule-medicine-injection-and-stethoscope-medical-background-picture-image_1451198.jpg") no-repeat center center / cover;
+    /* background: url("pngtree-color-capsule-medicine-injection-and-stethoscope-medical-background-picture-image_1451198.jpg") no-repeat center center / cover; */
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -313,7 +313,7 @@ fieldset {
 .new-search-container {
     display: flex;
     align-items: center;
-    background-color: #f1e7e7;
+    background-color: #a78989;
     padding: 15px; /* Larger padding around the search bar */
     border-radius: 40px;
     margin-top: 20px; /* Space above the search bar */
@@ -1925,7 +1925,7 @@ footer {
         gap: 10px;
     }
     .under-nav-links {
-        width: 70vw;
+        width: 0vw;
         right: 0;
         top: 0;
         visibility: hidden;
