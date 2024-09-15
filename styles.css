@@ -682,7 +682,7 @@ h2 {
 #testimonials h2 {
     font-size: 2rem;
     /* margin-bottom: 2.5rem; */
-    color: #333;
+    color: white;
 }
 
 .testimonial-container {
@@ -710,7 +710,8 @@ h2 {
     justify-content: center;
     align-items: center; 
     gap: 4vw; 
-    padding: 20px; 
+    padding: 20px;
+    background-color: deepskyblue;
 }
 
 /* Styling for each testimonial box */
