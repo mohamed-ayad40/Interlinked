@@ -1660,7 +1660,7 @@ footer {
     flex-direction: column;
     gap: 20px;
 }
-.signing {
+/* .signing {
     background-color: #1cc9f7;
     width: 86px;
     height: 28px;
@@ -1671,7 +1671,22 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.signing {
+    background-color: #1cc9f7;
+    width: 140px;
+    height: 28px;
+    line-height: 140%;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 .signing a {
     color: white;
 }
@@ -1958,6 +1973,9 @@ footer {
 
     .product-item.home {
         max-width: 100vw !important;
+    }
+    .under-nav-links li {
+        max-width: 160px;
     }
     
 }
