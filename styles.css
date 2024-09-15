@@ -1069,7 +1069,7 @@ cite {
 #searchPage .main-button {
     display: flex;
     position: absolute;
-    right: 20%;
+    right: 10%;
 }
 .first-button, 
 .second-button {
