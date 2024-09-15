@@ -90,3 +90,5 @@ document.getElementById('add-post-form').addEventListener('submit', function(eve
     // Clear the textarea
     document.getElementById('post-content').value = '';
 });
+
+console.log("Hello there");
