@@ -301,12 +301,11 @@ fieldset {
 }
 
 .hero-content p {
-    font-size: 28px;
+    font-size: 32px;
     margin-bottom: -4px;
     color: deepskyblue;
-    position: absolute;
-    top: 30px;
-    right: 15vw;
+    text-align:center;
+    margin:20px
 }
 
 /* New search container styles */
@@ -1313,7 +1312,7 @@ cite {
     }
 
     .hero-content p {
-        font-size: 24px;
+        font-size: 20px;
     }
     #testimonials .testimonial-box{
         flex: 1 1 calc(50% - 10px);
@@ -1817,7 +1816,7 @@ footer {
     }
 
     .hero-content p {
-        font-size: 24px;
+        font-size: 20px;
         font-weight:bold;
     }
 
