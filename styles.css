@@ -305,7 +305,7 @@ fieldset {
     margin-bottom: -4px;
     color: white;
     position: absolute;
-    top: -5px;
+    /* top: -5px; */
     right: 14vw;
 }
 
