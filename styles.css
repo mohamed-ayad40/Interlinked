@@ -47,7 +47,7 @@ a.active {
     align-items: center;
     position: relative;
     flex-wrap: wrap;
-    padding-bottom: 10px;
+    padding-bottom: 16px;
     /* width:100%; */
 }
 .logo {
