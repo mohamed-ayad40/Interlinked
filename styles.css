@@ -11,7 +11,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     color: #333;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     transition: 0.3s;
     margin: 0;
     width: 100%;
@@ -301,26 +301,16 @@ fieldset {
 }
 
 .hero-content p {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: -4px;
-    color: white;
+    color: deepskyblue;
     position: absolute;
-    /* top: -5px; */
-    right: 14vw;
+    top: 30px;
+    right: 15vw;
 }
 
 /* New search container styles */
-.new-search-container {
-    display: flex;
-    align-items: center;
-    background-color: #a78989;
-    padding: 15px; /* Larger padding around the search bar */
-    border-radius: 40px;
-    margin-top: 20px; /* Space above the search bar */
-    max-width: 500px;
-    width: 100%; /* Ensure it doesn't exceed the screen width */
-    margin: 100px auto; /* Center the search bar horizontally */
-}
+
 
 .new-search-container input {
     border: none;
@@ -328,6 +318,7 @@ fieldset {
     font-size: 16px;
     outline: none;
     flex: 1;
+    background-color: #f7f3f3;
 }
 
 .new-search-container button {
@@ -343,7 +334,7 @@ fieldset {
 .new-search-container {
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background-color: #f7f3f3;
     padding: 15px; /* Larger padding around the search bar */
     border-radius: 40px;
     margin-top: 20px; /* Space above the search bar */
@@ -1322,7 +1313,7 @@ cite {
     }
 
     .hero-content p {
-        font-size: 18px;
+        font-size: 24px;
     }
     #testimonials .testimonial-box{
         flex: 1 1 calc(50% - 10px);
@@ -1826,7 +1817,7 @@ footer {
     }
 
     .hero-content p {
-        font-size: 20px;
+        font-size: 24px;
         font-weight:bold;
     }
 
