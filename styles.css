@@ -575,7 +575,7 @@ h2 {
 #featured-products h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #333;
+    color: white;
 }
 
 #products {
@@ -1502,6 +1502,8 @@ h2 {
     flex-wrap: wrap;
     gap: 25px;
     justify-content: center;
+    background-color: deepskyblue;
+    border-radius: 20px;
 }
 .under-nav-links.active {
     width: 70vw;
